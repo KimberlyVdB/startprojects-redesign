@@ -25,6 +25,8 @@ p{
    font-family: 'Roboto', sans-serif;
 }
 
-
- 
-
+@media screen and (max-width: 1366px) {
+    #home_links {
+        padding: 35px 15px 0px 0px;
+    }
+}
