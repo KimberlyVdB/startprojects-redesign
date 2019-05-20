@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/* font: inherit; */
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, hgroup, section {
+	display: block;
+}
+body {
+	line-height: normal;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Default Styles 
+--------------------------------------------------------------------*/
+
+body {
+	background-color:white;
+	font-family:'Raleway', sans-serif;
+	width: 99%;
+}
+
+a{
+	color:white;
+	text-decoration: underline;
+}
+.clearfix {
+	clear: both;
+}
+
+*{
+	margin:0;
+	padding:0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.navbar {
+	position: fixed;
+	overflow: hidden;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	display: block;
+	background-color: black;
+}
+
+.inner_wrap{
+	position: sticky;
+	width: 60%;
+	height: 100%;
+	display: block;
+	margin: 0 auto; 	
+}
+
+.title_container{
+	height: 100%;
+	display: table;
+	float: left;
+}
+.title_container h1{
+	margin: 0px;
+	color:#FF7F27;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Roboto', sans-serif;
+	font-size:40;
+	font-weight: 800;
+}
+
+.menu{
+	float: right;
+	height: 100%;
+}
+
+.menu a{
+	height: 100%;
+	display: table;
+	vertical-align: middle;
+	margin: 0;
+	padding:18px 15px;
+	text-decoration: underline;
+}
+
+.menu li{
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+.menu a:last-child{
+	padding-right:0;
+	font-family: 'Roboto', sans-serif;
+	color:white;
+
+}

@@ -1,0 +1,277 @@
+﻿/* CSS - screen.css */
+
+body {
+background-color: #c4c4c4;
+}
+
+#wrapper  {
+	width:   100%;
+	margin-left: 0px;	
+}
+
+#header  {
+    float:left;
+    background:white;
+    margin:0 0 0 0;
+    width: 100%;
+    height: 480px;
+}
+
+#kleine-header  {
+    float:left;
+    background:c4c4c4;
+    width: 100%;
+    margin-top: 50px;
+    height: 250px;	
+}
+
+#hoofd_content {
+    float:right;
+    background:c4c4c4;
+    margin:  50px 0px 30px 70px;
+    width: 80%;
+}
+
+#contact_links {
+    float:left;
+    background:white;
+    margin: 0 auto;
+    width: 50%;
+    height: 500px;
+}
+
+#contact_rechts{
+    float:left;
+    background:white;
+    margin:0px 0px 0px 10px;
+    width: 50%;
+    height: 500px;
+}
+
+#verhaal_links{
+    float: left;
+    width: 55%;
+}
+
+#verhaal_rechts{
+    float: left;
+    width: 30%;
+    margin: 180px 0px 0px 10px;
+}
+
+#footer{
+	clear:both;
+	float:left;
+	background:#FF7F27;
+	width:100%;
+	height:202px;
+}
+
+
+#footer_links_content{
+    float:left;
+    width: 15%;
+    background:#FF7F27;
+    height:200px;
+}
+
+#footer_voor_midden_content{
+    float:left;
+    width: 20%;
+    height:200px;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: white;
+    background:black;
+}
+
+#footer_midden_content{
+    float:left;
+    width: 25%;
+    height:200px;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: white;
+    background:black;
+}
+
+#footer_naast_midden_content {
+    float:left;
+    width: 25%;
+    height:200px;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: white;
+    background:black;
+}
+
+#footer_rechts_content{
+    float:left;
+    width: 14%;
+    height:200px;
+    background:black;
+}
+
+.main_image{
+	float:left;
+	margin-right:40px;
+	border:1px solid #fff;
+	box-shadow: 0px  4px  6px  #999;
+}
+
+.border{
+    border-radius: 50%;
+}
+
+.titel{
+	font-family:'times new roman', sans-serif;
+	font-size:22px;
+	font-style:none;
+	font-variant:normal;
+    height: 80px;	
+}
+
+.kl-titel{
+	font-family:'times new roman', sans-serif;
+	font-size:18px;
+	font-style:none;
+	font-variant:normal;
+}
+
+.tekst{
+	font-family:'Raleway', sans-serif;
+	font-size: 16px;
+	font-style: none;
+	font-variant: normal;
+    line-height: 0,5cm;
+	width:80%;
+}
+
+.lezen    {
+	font-family:'Raleway', sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	font-style: none;
+	font-variant: normal;
+    height: 120px;
+}
+
+.pro-lezen    {
+	font-family: 'times new roman', sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	font-style: none;
+	font-variant: normal;
+    margin: 10px 15px 0px 0px;
+}
+
+.nuwel   {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+	font-weight:bold;
+    font-style: none;
+	font-variant: normal;
+    color: black; 
+}
+
+.inoranje  {
+    font-family: 'times new roman', sans-serif;
+	font-size: 16px;
+	font-weight:bolder;
+    font-style: none;
+	font-variant: normal;
+    color:  #FF7F27;
+}
+ 
+.gegevens   {
+    font-family: 'times new roman', sans-serif;
+	font-size: 16px;
+    font-style: none;
+	font-variant: normal;    
+}
+
+.overons    {
+	font-family: 'times new roman', sans-serif;
+	font-size:21px;
+	font-weight:500;
+	font-style:none;
+	font-variant:normal;
+    margin-left: 560px;
+    color: white;	
+}
+
+.fonty  {
+    font-style:normal;
+    font-variant:normal;
+    font-weight:900;
+    font-stretch:semi-expanded;
+    font-size:24px;
+    line-height: 2;
+    font-family: 'times new roman', sans-serif;
+    color: #FF7F27;
+    letter-spacing: 4px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.linkylinky {
+    font-style:normal;
+    font-variant:normal;
+    font-weight:900;
+    font-size:14px;
+    line-height: 2;
+    font-family: 'Raleway', sans-serif;
+    margin: 5px 0px 0px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.menulinkylinky {
+    font-style:normal;
+    font-variant:normal;
+    font-weight:900;
+    font-size:14px;
+    line-height: 2;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px 0px 0px 0px;
+    color: white;
+    text-decoration: none;
+}
+
+.vgc_linky {
+    font-style:normal;
+    font-variant:normal;
+    font-weight:900;
+    font-size:14px;
+    font-family: 'Raleway', sans-serif;
+    margin:0px 0px 0px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.resultaat_color  {
+    font-family:'times new roman', sans-serif;
+	font-size:18px;
+	font-style:none;
+	font-variant:normal;
+    color: #FF7F27; 
+}
+
+.image  {
+  margin-left: 10px;
+}
+ 
+.allessamen    {
+	font-family:'times new roman', sans-serif;
+	font-size:22px;
+	font-style:none;
+	font-variant:normal;
+    height: 30px;
+    color: blue;
+    margin:  40px 0px 0px 5px;
+	
+}
+
+
+
+
