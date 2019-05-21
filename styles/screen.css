@@ -28,7 +28,7 @@ background-color: #c4c4c4;
 #hoofd_content {
     float:right;
     background:c4c4c4;
-    margin:  40px 180px 30px 290px;
+    margin: 1% 1% 1% 1%;
 }
 
 #contact_links {
@@ -144,7 +144,7 @@ background-color: #c4c4c4;
     font-variant: normal;
     float:right;
     line-height: 0,5cm;
-	width:97%;
+	width:82%;
 }
 
 .lezen    {
@@ -272,7 +272,7 @@ background-color: #c4c4c4;
 }
 
 .orange_decoration{
-    width: 15%;
+    width: 15.3%;
     height: 10%;
     background-color: #FF7F27;
 }
