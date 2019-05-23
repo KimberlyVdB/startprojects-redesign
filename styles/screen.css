@@ -4,10 +4,12 @@ body {
 background-color: #c4c4c4;
 }
 
-#wrapper  {
-	width:   100%;
-	margin-left: 0px;	
-}
+/* #wrapper  {
+    width:100%;
+    margin-top:5%;
+    background: url("images/indexbanner.png") no-repeat;
+    margin-left: 0px;	
+} */
 
 #header  {
     float:left;
@@ -17,18 +19,36 @@ background-color: #c4c4c4;
     height: 480px;
 }
 
-#kleine-header  {
-    float:left;
-    background:c4c4c4;
-    width: 100%;
-    margin-top: 45px;
-    height: 200px;	
+#inner-content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    background:white;
+    position: absolute; right: 0;
+    width: 84.7%;
+    height: 100%;
 }
 
 #hoofd_content {
-    float:right;
-    background:c4c4c4;
-    margin: 1% 1% 1% 1%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#kleine-header{
+    background-size: contain;
+    
+}
+
+.title-background{
+    background: url("/images/indexbanner.png") no-repeat;
+    height: 100%;
+}
+
+#home-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color:#FF7F27;
+    padding: 1% 1% 1% 15%
 }
 
 #contact_links {
@@ -59,8 +79,16 @@ background-color: #c4c4c4;
 }
 
 #footer{
-	clear:both;
-	float:left;
+    position: fixed;
+    margin-top: 15px;
+    height: 25%;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    bottom: 0;
+    clear:both;
+    flex-direction: row;
+	align-self: flex-end;
 	background:#FF7F27;
 	width:100%;
 }
@@ -142,9 +170,8 @@ background-color: #c4c4c4;
 	font-size: 16px;
 	font-style: none;
     font-variant: normal;
-    float:right;
     line-height: 0,5cm;
-	width:82%;
+	/* width:82%; */
 }
 
 .lezen    {

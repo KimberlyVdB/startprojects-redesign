@@ -51,13 +51,13 @@ table {
 --------------------------------------------------------------------*/
 
 body {
-	background-color:white;
+	background-color:#FF7F27;
 	font-family:'Raleway', sans-serif;
 	width: 100%;
 }
 
 a{
-	color:white;
+	color:#FF7F27;
 	text-decoration: underline;
 }
 .clearfix {
@@ -72,6 +72,7 @@ a{
 }
 
 .navbar {
+	z-index:1;
 	position: fixed;
 	overflow: hidden;
 	top: 0;
@@ -92,7 +93,7 @@ a{
 .title_container{
 	height: 100%;
 	display: table;
-	float: left;
+	align-items: flex-start;
 }
 .title_container h1{
 	margin: 0px;
@@ -106,8 +107,8 @@ a{
 }
 
 .menu{
-	float: right;
 	height: 100%;
+	align-items: flex-start;
 }
 
 .menu a{
@@ -129,9 +130,9 @@ a{
 	font-weight: bold;
 	font-size: 16px;
 }
+
 .menu a:last-child{
 	padding-right:0;
 	font-family: 'Roboto', sans-serif;
 	color:white;
-
 }
