@@ -90,10 +90,14 @@ a{
 	margin: 0 auto; 	
 }
 
+.inner_wrap nav {
+	float: right;
+}
+
 .title_container{
 	height: 100%;
 	display: table;
-	align-items: flex-start;
+	float: left;
 }
 .title_container h1{
 	margin: 0px;
@@ -108,7 +112,7 @@ a{
 
 .menu{
 	height: 100%;
-	align-items: flex-start;
+	align-items: flex-end;
 }
 
 .menu a{
