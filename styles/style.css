@@ -121,7 +121,7 @@ a{
 	vertical-align: middle;
 	margin: 0;
 	padding:18px 15px;
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 .menu li{
@@ -139,4 +139,8 @@ a{
 	padding-right:0;
 	font-family: 'Roboto', sans-serif;
 	color:white;
+}
+
+.menu a:hover{
+	color:#FF7F27;
 }
