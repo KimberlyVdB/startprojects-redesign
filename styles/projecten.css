@@ -1,155 +1,40 @@
 /* CSS - screen.css */
 
+.card {
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 250px;
+    width: 700px;
+    background:white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px 10px 10px 30px;
+  }
 
+  .card:hover {
+    box-shadow: 0 8px 16px 0 grey; 
+  }
+  .cardContainer {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 15px;
+  }
 
-
-#links_content {
-float:left;
-background:white;
-margin:10px 10px 10px 15px;
-width: 30%;
-height: 500px;
-    padding: 10px;    
-    border: 2px solid #d5d5d5;
-
+h3{
+    color:#FF7F27; 
 }
 
-
-#midden_content {
-float:left;
-background:white;
-margin:10px 10px 10px 0px;
-width: 30%;
-height: 500px;
-    padding: 10px;    
-    border: 2px solid #d5d5d5;
-
+.cardText{
+    padding: 15px 0px 10px 0px;
 }
-
-
-
-#rechts_content {
-float:left;
-background:white;
-margin:10px 10px 10px 0px;
-width: 30%;
-height: 500px;
-    padding: 10px;    
-    border: 2px solid #d5d5d5;
-
+.leesmeer{
+    color:#FF7F27; 
+    font-weight: bold;
 }
-
-
-#onder_links_content {
-float:left;
-background:white;
-margin:10px 10px 10px 15px;
-width: 30%;
-height: 500px;
-    padding: 10px;    
-    border: 2px solid #d5d5d5;
-
-}
-
-
-#onder_midden_content {
-float:left;
-background:white;
-margin:10px 10px 10px 0px;
-width: 30%;
-height: 500px;
-    padding: 10px;    
-    border: 2px solid #d5d5d5;
-
-}
-
-
-
-#onder_rechts_content {
-float:left;
-background:white;
-margin:10px 10px 10px 0px;
-width: 30%;
-height: 500px;
-    padding: 10px;    
-    border: 0px solid #d5d5d5;
-
-}
-
-
-#projecten_links_content {
-float:left;
-background:white;
-margin:10px 10px 10px 15px;
-width: 20%;
-height: 300px;
-    padding: 10px;    
-    
-
-}
-
-
-#projecten_midden_content {
-float:left;
-background:white;
-margin:0px 10px 0px 0px;
-width: 50%;
-height: 300px;
-    padding: 10px;    
-     
-
-}
-
-
-
-#projecten_rechts_content {
-float:left;
-background:white;
-margin:80px 5px 10px 20px;
-width: 20%;
-height: 300px;
-    padding: 10px;    
-     
-
-}
-
-
-
-
-#BIGprojecten_links_content {
-float:left;
-background:white;
-margin:10px 10px 10px 15px;
-width: 20%;
-height: 450px;
-    padding: 10px;    
-    
-
-}
-
-
-#BIGprojecten_midden_content {
-float:left;
-background:white;
-margin:0px 10px 0px 0px;
-width: 50%;
-height: 450px;
-    padding: 10px;    
-     
-
-}
-
-
-
-#BIGprojecten_rechts_content {
-float:left;
-background:white;
-margin:80px 5px 10px 20px;
-width: 20%;
-height: 450px;
-    padding: 10px;    
-     
-
+.card a{
+    text-decoration: none;
+    font-size: 14px;
 }
 
 
