@@ -9,13 +9,17 @@ background-color: #c4c4c4;
     width: 100%;
     height: 480px;
 }
+.mainPageContent{
+    display: flex;
+    justify-content: flex-end;
+}
 
 #inner-content{
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-start;
     background:white;
-    position: absolute; right: 0;
+    /* position: absolute; right: 0; absolute breaks everything but now its also broken */
     width: 85%;
     height: 100%;
 }
@@ -29,12 +33,32 @@ background-color: #c4c4c4;
     background-size: contain;
 }
 
-.title-background{
+.homebackground{
     background: url("../images/indexbanner2.png") 0 no-repeat;
     height: 150px;
 }
+.projectenbackground{
+    background: url("../images/projectenbanner.png") 0 no-repeat;
+    height: 150px;
+}
+.projectenbackground{
+    background: url("../images/contactbanner.png") 0 no-repeat;
+    height: 150px;
+}
+.missiebackground{
+    background: url("../images/missieenvisiebanner.png") 0 no-repeat;
+    height: 150px;
+}
+.verhaalbackground{
+    background: url("../images/onsverhaalbanner.png") 0 no-repeat;
+    height: 150px;
+}
+.contactbackground{
+    background: url("../images/contactbanner.png") 0 no-repeat;
+    height: 150px;
+}
 
-#home-title{
+#home-title{ /*Startprojecten title in banner op elke pagina*/
     font-family: 'Play', sans-serif;
     font-size: 60px;
     color:#FF7F27;
@@ -67,72 +91,6 @@ background-color: #c4c4c4;
     float: left;
     width: 30%;
     margin: 180px 0px 0px 10px;
-}
-
-#footer{
-    position: fixed;
-    margin-top: 15px;
-    height: 16%;
-    width: 100%;
-    text-align: left;
-    font-size: 0.8em;
-    bottom: 0;
-    clear:both;
-    display: flex;  
-    flex-wrap: wrap;
-	align-self: flex-end;
-	background:black;
-	width:100%;
-}
-
-#footer li{
-    margin: 10px 20px;
-    font-weight: bold;
-    font-size: 1.1em;
-}
-
-#footer_links_content{
-    font-weight:900;
-    font-size:1em;
-    font-family: 'Raleway', sans-serif;
-    color: black;
-    text-align: center;
-    width: 15%;
-    background:#FF7F27;
-    height:200px;
-}
-
-#footer_voor_midden_content{
-    width: 20%;
-    height:200px;
-    border-style: solid;
-    border-width: 0px 1px 0px 0px;
-    border-color: #FF7F27;
-    background:black;
-}
-
-#footer_midden_content{
-    width: 25%;
-    height:200px;
-    border-style: solid;
-    border-width: 0px 1px 0px 0px;
-    border-color: #FF7F27;
-    background:black;
-}
-
-#footer_naast_midden_content {
-    width: 25%;
-    height:200px;
-    border-style: solid;
-    border-width: 0px 1px 0px 0px;
-    border-color: #FF7F27;
-    background:black;
-}
-
-#footer_rechts_content{
-    width: 14%;
-    height:200px;
-    background:black;
 }
 
 .main_image{
@@ -200,7 +158,6 @@ background-color: #c4c4c4;
     font-style: none;
 	font-variant: normal;
     color: black; 
-
 }
 
 .inoranje  {
@@ -266,17 +223,6 @@ background-color: #c4c4c4;
     color: white;
     text-decoration: none;
 }
-
-/* .vgc_linky {
-    font-style:normal;
-    font-variant:normal;
-    font-weight:900;
-    font-size:14px;
-    font-family: 'Raleway', sans-serif;
-    margin:0px 0px 0px 20px;
-    color: black;
-    text-decoration: none;
-} */
 
 .resultaat_color  {
     font-family:'times new roman', sans-serif;
