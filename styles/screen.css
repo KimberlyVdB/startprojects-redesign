@@ -1,8 +1,4 @@
-﻿body {
-background-color: #c4c4c4;
-}
-
-#header  {
+﻿#header  {
     float:left;
     background:white;
     margin:0 0 0 0;
@@ -19,7 +15,6 @@ background-color: #c4c4c4;
     flex-flow: row wrap;
     justify-content: flex-start;
     background:white;
-    /* position: absolute; right: 0; absolute breaks everything but now its also broken */
     width: 85%;
     height: 100%;
 }
@@ -66,20 +61,75 @@ background-color: #c4c4c4;
     text-decoration: underline;
 }
 
-#contact_links {
-    float:left;
+/* contact */
+.contactPage{
+    font-display: 'Roboto', sans-serif;
     background:white;
-    margin: 0 auto;
-    width: 50%;
-    height: 500px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px 5px 30px;
+    /* text-decoration: none */
 }
 
-#contact_rechts{
-    float:left;
-    background:white;
-    margin:0px 0px 0px 10px;
-    width: 50%;
-    height: 500px;
+.contactPage a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* .infoContainer{
+    align-self: flex-start;
+} */
+.infoContainer{
+    margin: 0px 15px;
+}
+
+.infoContainer li{
+    margin: 4px 0px;
+}
+
+.infoContainer li :last-child{
+    margin: 12px 0px;
+}
+.infoContainer a{
+    text-decoration: none;
+}
+
+.infoContainer :last-child{
+    margin-bottom: 8px;
+}
+
+.samenwerkingen{
+    display: flex;
+    align-items: flex-start;
+    /* flex-direction: row; */
+    margin: 0px 0px;
+    height: 250px;
+    width: 600px;
+    line-height: 20px;
+    margin: 0px 0px 15px 30px;
+}
+
+.samenwerkingen li{
+    margin: 0px 0px 0px 0px;
+}
+
+.vrijwilligers{
+    display: flex;
+    align-items: center;
+    height: 250px;
+    width: 670px;
+    line-height: 20px;
+    margin: 0px 0px 15px 30px;
+}
+
+.vrijwilligers li{
+    margin:4px 0px;
+}
+
+.vrijwilligers a{
+    text-decoration: none;
+    font-weight: 600;
 }
 
 #verhaal_links{
@@ -120,12 +170,12 @@ background-color: #c4c4c4;
 }
 
 .tekst{
-	font-family:'Raleway', sans-serif;
+	font-family:'Roboto', sans-serif;
 	font-size: 16px;
 	font-style: none;
     font-variant: normal;
     line-height: 0,5cm;
-    margin: 3% 3% 0% 3%;
+    margin: 15px 0px 15px 30px;
     width: 100%;
 }
 
@@ -134,7 +184,7 @@ background-color: #c4c4c4;
 }
 
 .lezen    {
-	font-family:'Raleway', sans-serif;
+	font-family:'Roboto', sans-serif;
 	font-size: 16px;
 	font-weight: lighter;
 	font-style: none;
@@ -157,7 +207,7 @@ background-color: #c4c4c4;
 	font-weight:bold;
     font-style: none;
 	font-variant: normal;
-    color: black; 
+    color: #FF7F27;
 }
 
 .inoranje  {
@@ -167,13 +217,6 @@ background-color: #c4c4c4;
     font-style: none;
 	font-variant: normal;
     color:  #FF7F27;
-}
- 
-.gegevens   {
-    font-family: 'times new roman', sans-serif;
-	font-size: 16px;
-    font-style: none;
-	font-variant: normal;    
 }
 
 .overons    {
@@ -245,12 +288,21 @@ background-color: #c4c4c4;
     color: blue;
     margin:  40px 0px 0px 5px;
 }
-
+/* 
 .orange_decoration{
     width: 15.3%;
     height: 10%;
     background-color: #FF7F27;
+} */
+
+
+
+@media only screen and (max-width: 1024px){
+    .contactPage{
+        flex-direction: column;
+    }
+    .contactInformation{
+        display: flex;
+        flex-direction: row;
+    }
 }
-
-
-
