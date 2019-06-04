@@ -1,5 +1,4 @@
 #footer{
-    margin-top: 15px;
     height: 16%;
     width: 100%;
     text-align: left;
@@ -17,6 +16,10 @@
     margin: 10px 20px;
     font-weight: bold;
     font-size: 1.1em;
+}
+
+#footer a{
+    text-decoration: none;
 }
 
 #footer_links_content{
