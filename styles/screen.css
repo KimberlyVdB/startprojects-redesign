@@ -22,6 +22,7 @@
 #hoofd_content {
     margin-top: 50px;
     height: 1%;
+    width: 100%;
 }
 
 #kleine-header{
@@ -81,7 +82,7 @@
     align-self: flex-start;
 } */
 .infoContainer{
-    margin: 0px 15px;
+    margin: 10px 0px 5px 15px;
 }
 
 .infoContainer li{
@@ -107,7 +108,7 @@
     height: 250px;
     width: 600px;
     line-height: 20px;
-    margin: 0px 0px 15px 30px;
+    margin: 10px 0px 5px 30px;
 }
 
 .samenwerkingen li{
@@ -120,7 +121,8 @@
     height: 250px;
     width: 670px;
     line-height: 20px;
-    margin: 0px 0px 15px 30px;
+    margin: 10px 0px 5px 30px;
+    
 }
 
 .vrijwilligers li{
@@ -132,7 +134,86 @@
     font-weight: 600;
 }
 
-#verhaal_links{
+/*Ons verhaal*/
+
+.onsVerhaalDiv{
+    display: flex;
+    flex-direction: row
+}
+
+.onsVerhaalText{
+    font-display: 'Roboto', sans-serif;
+    width: 55%;   
+    margin: 0px 0px 10px 40px;
+}
+.onsVerhaalText li{
+    list-style-type: square;
+}
+
+.onsVerhaalImage{
+    margin: 190px 0px 10px 40px;
+    
+}
+
+/* .onsVerhaalImage img{
+    border-radius: 20px;
+} */
+
+.startprojectenText{
+    color: #FF7F27;
+}
+
+/* Missie en Visie */
+.topul{
+    margin: 15px 0px 10px 30px;
+    width: 75%;
+}
+
+.topul li{
+    margin: 10px 0px 0px 0px;
+}
+
+.topul :first-child{
+    color: #FF7F27;
+    font-weight: bold;
+}
+.topul :last-child{
+    margin: 10px 0px 15px 0px;
+}
+
+.missiePointsText{
+    font-weight: bold;
+    color: black;
+    text-decoration: underline;
+}
+
+.doelstellingenUl{
+    margin: 0px 0px 0px 50px; 
+    width: 75%;
+}
+
+.doelstellingenUl li{
+    list-style-type: square;
+    margin: 12px 0px 0px 0px;
+}
+
+.doelstellingenUl :first-child{
+    list-style-type: square;
+    margin: 0px 0px 0px 0px;
+}
+
+.doelstellingenUl :last-child{
+    list-style-type: square;
+    margin:12px 0px 25px 0px;
+}
+
+/* .visieTitle{
+    color: #FF7F27;
+    font-weight: bold;
+} */
+
+
+/* #verhaal_links{
     float: left;
     width: 55%;
 }
@@ -148,11 +229,11 @@
 	margin-right:40px;
 	border:1px solid #fff;
 	box-shadow: 0px  4px  6px  #999;
-}
+} */
 
-.border{
+/* .border{
     border-radius: 50%;
-}
+} */
 
 .titel{
 	font-family:'times new roman', sans-serif;
@@ -176,7 +257,7 @@
     font-variant: normal;
     line-height: 0,5cm;
     margin: 15px 0px 15px 30px;
-    width: 100%;
+    width: 800px;
 }
 
 .tekstsplit{
@@ -189,7 +270,6 @@
 	font-weight: lighter;
 	font-style: none;
 	font-variant: normal;
-    height: 120px;
 }
 
 .pro-lezen    {
@@ -210,14 +290,14 @@
     color: #FF7F27;
 }
 
-.inoranje  {
+/* .inoranje  {
     font-family: 'times new roman', sans-serif;
 	font-size: 16px;
 	font-weight:bolder;
     font-style: none;
 	font-variant: normal;
     color:  #FF7F27;
-}
+} */
 
 .overons    {
 	font-family: 'times new roman', sans-serif;
@@ -288,16 +368,10 @@
     color: blue;
     margin:  40px 0px 0px 5px;
 }
-/* 
-.orange_decoration{
-    width: 15.3%;
-    height: 10%;
-    background-color: #FF7F27;
-} */
 
+@media only screen and (max-width: 1200px){
 
-
-@media only screen and (max-width: 1024px){
+    /* contact pagina */
     .contactPage{
         flex-direction: column;
     }
@@ -305,4 +379,19 @@
         display: flex;
         flex-direction: row;
     }
+    .samenwerkingen{
+        margin: 10px 0px 5px 0px;
+    }
+
+    /* Ons verhaal */
+    .onsVerhaalDiv{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .onsVerhaalImage{
+        margin: 0px 0px 10px 40px;
+        
+    }
+
 }
