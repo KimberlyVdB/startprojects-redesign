@@ -11,11 +11,14 @@
     margin: 10px 10px 10px 30px;
   }
 
+  .projectContainer{
+   width: 100%;
+  }
   .card:hover {
     box-shadow: 0 8px 16px 0 grey; 
   }
   .cardContainer {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; 
     padding-left: 15px;
   }
 
