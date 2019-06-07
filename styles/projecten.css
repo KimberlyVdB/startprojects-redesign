@@ -38,9 +38,76 @@ h3{
     font-size: 14px;
 }
 
+/* Lees meer projecten */
+.mainProjectLinkDiv{
+  width: 800px;
+}
 
+.mainLeesMeerDiv a{
+    text-decoration: none;
+    font-weight: 600;
+}
 
+.mainLeesMeerDiv{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
 
+.projectTitles{
+  font-weight: bold;
+  color: #FF7F27;
+  margin: 30px 0px 25px 30px;
+}
+.ResultaatDoelen{
+  margin: 15px 0px 10px 50px;
+}
+
+.ResultaatDoelen li{
+  margin: 0px 0px 25px 0px;
+  list-style-type: square;
+}
+
+.samenMet{
+  margin: 15px 0px 10px 30px;
+}
+
+.samenMet li{
+  margin: 15px 0px 0px 0px;
+}
+.samenMet li{
+  margin: 15px 0px 0px 0px;
+}
+.samenMet :last-child{
+  margin: 15px 0px 60px 0px;
+}
+
+.ProjectenLinksNaar{
+  margin: 120px 0px 0px 20px;
+}
+
+.ProjectenLinksNaar li{
+  list-style-type: square;
+  margin: 20px 0px 10px 50px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 1200px){
+
+/* Lees meer paginas */
+
+  .mainLeesMeerDiv{
+    display: flex;
+    flex-direction: column;
+  }
+  .ProjectenLinksNaar{
+    margin: 120px 0px 0px 20px;
+  }
+  .ProjectenLinksNaar{
+    margin: 0px 0px 0px 0px;
+  }
+}
 
 
 
