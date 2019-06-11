@@ -1,5 +1,5 @@
 #home_links {
-margin: 5% 2% 1% 2%;
+  margin: 10px 0px 50px 30px;
 height: 300px;
 }
 
@@ -23,9 +23,6 @@ height: 300px;
     border: 0px solid #d5d5d5;
 }
 
-p{
-   font-family: 'Roboto', sans-serif;
-}
 li{
     margin: 38px 0;
   } 
