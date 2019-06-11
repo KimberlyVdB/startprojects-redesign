@@ -42,6 +42,18 @@
     background:black;
 }
 
+.linkylinky {
+    font-style:normal;
+    font-variant:normal;
+    font-weight:900;
+    font-size:14px;
+    line-height: 2;
+    font-family: 'Raleway', sans-serif;
+    margin: 5px 0px 0px 20px;
+    color: white;
+    text-decoration: none;
+}
+
 #footer_midden_content{
     width: 25%;
     height:200px;
