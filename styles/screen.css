@@ -64,9 +64,8 @@
 
 /* contact */
 .contactPage{
-    font-display: 'Roboto', sans-serif;
     background:white;
-    margin: 10px 0px 5px 30px;
+    margin: 10px 0px 50px 30px;
 }
 
 .contactPage a {
@@ -90,7 +89,7 @@
 }
 
 .infoContainer{
-    margin: 0px 0px 5px 15px;
+    margin: 0px 0px 0px 15px;
 }
 
 .infoContainer li{
@@ -114,7 +113,6 @@
     line-height: 20px;
     margin: 10px 30px 5px 30px;
 }
-
 
 .samenwerkingen li{
     margin: 0px 30px 0px 0px;
@@ -145,7 +143,6 @@
 }
 
 .onsVerhaalText{
-    font-display: 'Roboto', sans-serif;
     width: 55%;   
     margin: 0px 0px 30px 40px;
 }
@@ -179,7 +176,7 @@
     font-weight: bold;
 }
 .topul :last-child{
-    margin: 10px 0px 15px 0px;
+    margin: 10px 0px 1px 0px;
 }
 
 .missiePointsText{
@@ -209,51 +206,14 @@
     margin:20px 0px 25px 0px;
 }
 
-/* .titel{
-	font-family:'times new roman', sans-serif;
-	font-size:22px;
-	font-style:none;
-	font-variant:normal;
-    height: 80px;	
-} */
-
-/* .kl-titel{
-	font-family:'times new roman', sans-serif;
-	font-size:18px;
-	font-style:none;
-	font-variant:normal;
-} */
-
 .tekst{
 	font-family:'Roboto', sans-serif;
-	/* font-size: 16px; */
 	font-style: none;
     font-variant: normal;
     line-height: 0,5cm;
     margin: 15px 0px 15px 30px;
     width: 800px;
 }
-
-/* .tekstsplit{
-    margin: 0% 5% 0% 17%;
-} */
-
-/* .lezen    {
-	font-family:'Roboto', sans-serif;
-	font-size: 16px;
-	font-weight: lighter;
-	font-style: none;
-	font-variant: normal;
-}
-
-.pro-lezen    {
-	font-family: 'times new roman', sans-serif;
-	font-size: 16px;
-	font-weight: lighter;
-	font-style: none;
-	font-variant: normal;
-    margin: 10px 15px 0px 0px;
-} */
 
 .nuwel{
     font-family: 'Roboto', sans-serif;
@@ -263,30 +223,6 @@
 	font-variant: normal;
     color: #FF7F27;
 }
-
-/* .overons    {
-	font-family: 'times new roman', sans-serif;
-	font-size:21px;
-	font-weight:500;
-	font-style:none;
-	font-variant:normal;
-    margin-left: 560px;
-    color: white;	
-}
-
-.fonty  {
-    font-style:normal;
-    font-variant:normal;
-    font-weight:900;
-    font-stretch:semi-expanded;
-    font-size:24px;
-    line-height: 2;
-    font-family: 'times new roman', sans-serif;
-    color: #FF7F27;
-    letter-spacing: 4px;
-    margin-left: 50px;
-    text-decoration: none;
-} */
 
 /* Responsive */
 
