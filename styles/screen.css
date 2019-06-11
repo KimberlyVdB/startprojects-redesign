@@ -66,11 +66,7 @@
 .contactPage{
     font-display: 'Roboto', sans-serif;
     background:white;
-    align-items: flex-start;
-    display: flex;
-    flex-direction: row;
     margin: 10px 0px 5px 30px;
-    /* text-decoration: none */
 }
 
 .contactPage a {
@@ -78,8 +74,23 @@
     font-weight: 500;
 }
 
+.KaartenInfo{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+}
+
+.VactatureenSamenwerking{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.VactatureenSamenwerking li:first-child{
+        margin-bottom: 8px;
+}
+
 .infoContainer{
-    margin: 10px 0px 5px 15px;
+    margin: 0px 0px 5px 15px;
 }
 
 .infoContainer li{
@@ -98,23 +109,18 @@
 }
 
 .samenwerkingen{
-    display: flex;
-    align-items: flex-start;
-    /* flex-direction: row; */
-    margin: 0px 0px;
-    height: 250px;
+    height: 210px;
     width: 600px;
     line-height: 20px;
-    margin: 10px 0px 5px 30px;
+    margin: 10px 30px 5px 30px;
 }
 
+
 .samenwerkingen li{
-    margin: 0px 0px 0px 0px;
+    margin: 0px 30px 0px 0px;
 }
 
 .vrijwilligers{
-    display: flex;
-    align-items: center;
     height: 250px;
     width: 670px;
     line-height: 20px;
@@ -258,7 +264,7 @@
     color: #FF7F27;
 }
 
-.overons    {
+/* .overons    {
 	font-family: 'times new roman', sans-serif;
 	font-size:21px;
 	font-weight:500;
@@ -280,41 +286,6 @@
     letter-spacing: 4px;
     margin-left: 50px;
     text-decoration: none;
-}
-
-
-/* .menulinkylinky {
-    font-style:normal;
-    font-variant:normal;
-    font-weight:900;
-    font-size:14px;
-    line-height: 2;
-    font-family: 'Raleway', sans-serif;
-    margin: 0px 0px 0px 0px;
-    color: white;
-    text-decoration: none;
-} */
-
-/* .resultaat_color  {
-    font-family:'times new roman', sans-serif;
-	font-size:18px;
-	font-style:none;
-	font-variant:normal;
-    color: #FF7F27; 
-}
-
-.image  {
-  margin-left: 10px;
-}
- 
-.allessamen    {
-	font-family:'times new roman', sans-serif;
-	font-size:22px;
-	font-style:none;
-	font-variant:normal;
-    height: 30px;
-    color: blue;
-    margin:  40px 0px 0px 5px;
 } */
 
 /* Responsive */
@@ -324,14 +295,27 @@
     /* contact pagina */
     .contactPage{
         flex-direction: column;
-        height: 690px;
+        height:280px;
+        width: 100%;
     }
     .contactInformation{
         display: flex;
         flex-direction: row;
     }
     .samenwerkingen{
-        margin: 10px 0px 5px 0px;
+        margin: 10px 0px 20px 0px;
+        width: 100%;
+    }
+
+    .vrijwilligers{
+        margin: 10px 30px 5px 0px;
+        width: 100%;
+    }
+
+    .VactatureenSamenwerking{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 30px 5px 30px;
     }
 
     /* Ons verhaal */
@@ -340,17 +324,22 @@
         flex-direction: column;
     }
 
+    .onsVerhaalText{
+        width: 85%;
+    }
+
     .onsVerhaalImage{
         margin: 0px 0px 10px 40px;
         
     }
 
+    /* Missie en Visie */
+    .MissieVisieDiv{
+        width: 85%;
+    }
+
     /* inner page */
     #inner-content{
-        /* display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-start;
-        background:white; */
         width: 100%;
         height: 100%;
     }
