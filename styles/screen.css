@@ -209,24 +209,24 @@
     margin:20px 0px 25px 0px;
 }
 
-.titel{
+/* .titel{
 	font-family:'times new roman', sans-serif;
 	font-size:22px;
 	font-style:none;
 	font-variant:normal;
     height: 80px;	
-}
+} */
 
-.kl-titel{
+/* .kl-titel{
 	font-family:'times new roman', sans-serif;
 	font-size:18px;
 	font-style:none;
 	font-variant:normal;
-}
+} */
 
 .tekst{
 	font-family:'Roboto', sans-serif;
-	font-size: 16px;
+	/* font-size: 16px; */
 	font-style: none;
     font-variant: normal;
     line-height: 0,5cm;
@@ -234,11 +234,11 @@
     width: 800px;
 }
 
-.tekstsplit{
+/* .tekstsplit{
     margin: 0% 5% 0% 17%;
-}
+} */
 
-.lezen    {
+/* .lezen    {
 	font-family:'Roboto', sans-serif;
 	font-size: 16px;
 	font-weight: lighter;
@@ -253,7 +253,7 @@
 	font-style: none;
 	font-variant: normal;
     margin: 10px 15px 0px 0px;
-}
+} */
 
 .nuwel{
     font-family: 'Roboto', sans-serif;
