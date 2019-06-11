@@ -15,10 +15,9 @@
    width: 100%;
   }
   .card:hover {
-    box-shadow: 0 8px 16px 0 grey; 
+    box-shadow: 0 8px 10px 0 grey; 
   }
   .cardContainer {
-    font-family: 'Roboto', sans-serif; 
     padding-left: 15px;
   }
 
@@ -40,13 +39,14 @@ h3{
 
 /* Lees meer projecten */
 .mainProjectLinkDiv{
-  max-width: 800px;
-  
+  max-width: 900px;
+  position: relative;
 }
 
 .mainLeesMeerDiv a{
     text-decoration: none;
     font-weight: 600;
+    height: 100%;
 }
 
 .mainLeesMeerDiv{
@@ -89,7 +89,7 @@ h3{
 
 .ProjectenLinksNaar li{
   list-style-type: square;
-  margin: 20px 0px 10px 50px;
+  margin: 20px 0px 10px 30px;
 }
 
 /* Responsive */
@@ -98,20 +98,29 @@ h3{
 
 /* Lees meer paginas */
 
-  /* .mainLeesMeerDiv{
-    display: flex;
+  .mainLeesMeerDiv{
+    /* display: flex; */
     flex-direction: column;
-  } */
-  .ProjectenLinksNaar{
-    margin: 50px 0px 0px 20px;
+    height: 100%;
   }
-  .ProjectenLinksNaar{
-    margin: 0px 30px 0px 0px;
-  }
+
   .mainProjectLinkDiv{
-    width: 800px;
-    height: 400px;
-    margin-bottom: 25px;
+    width: 90%;
+    margin-bottom: 0px;
+  }
+
+  .mainLeesMeerDiv{
+    width: 85%;
+  }
+
+  .ProjectenLinksNaar{
+    margin-top: 0px;
+  }
+
+  /* main projecten pagina */
+  .card {
+    height: 250px;
+    width: 880px;
   }
 }
 
