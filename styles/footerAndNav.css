@@ -10,12 +10,13 @@
 	background:black;
     position: relative;
     bottom: 0;
+    margin-top: auto;
 }
 
 #footer li{
-    margin: 10px 20px;
+    margin: 5px 20px;
     font-weight: bold;
-    font-size: 16px;
+    line-height: 25px;
 }
 
 #footer a{
@@ -42,10 +43,7 @@
 }
 
 .linkylinky {
-    font-style:normal;
-    font-variant:normal;
     font-weight:900;
-    font-size:14px;
     line-height: 2;
     margin: 5px 0px 0px 20px;
     color: white;
@@ -84,25 +82,38 @@
         text-align: center;
         width: 100%;
         background:#FF7F27;
-        line-height: 10px;
+        line-height: 5px;
         height:100px;
     }
+    #footer_links_content li{
+        line-height: 18px;
+    }
+
     #footer_voor_midden_content{
-        width: 25%;
+        width: 50%;
+        height: 220px;
     }
     
     #footer_midden_content{
-        width: 25%;
+        width: 50%;
+        height: 220px;
     }
     
     #footer_naast_midden_content {
-        width: 25%;
+        width: 50%;
+        height: 220px;
     }
+
     #footer_rechts_content{
-        width: 20%;
-        height:200px;
+        width: 40%;
+        height:220px;
         background:black;
     }
+
+    #footer li {
+        font-size: 20px;
+    }
+
 }
   
 /*navigation bar begint hier*/
@@ -137,10 +148,10 @@ header::after{
     margin:16px;
     left: 0;
 }
-/* 
+
 .site-nav--open {
   width: 180px;
-} Pen Commented This Out*/ 
+} 
 
 /*gain focus, makes it tabbable*/
 .nav-toggle{
@@ -285,7 +296,7 @@ nav{
     nav a:hover::before{
         transform: scale(1, 1);
     }
-    /* .site-nav {
-      width: 0%;
-    } Pen Commented This Out*/
-}
+    .site-nav {
+      width: auto;
+    }
+} 
