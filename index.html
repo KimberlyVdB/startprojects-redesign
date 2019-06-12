@@ -17,32 +17,36 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway|Play|Roboto&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <link href="styles/style.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="styles/iconic.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="styles/projecten.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="styles/home.css" media="screen" rel="stylesheet" type="text/css" />
-  <link href="styles/footer.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="styles/footerAndNav.css" media="screen" rel="stylesheet" type="text/css" />
   <script src="script/prefix-free.js"></script>
 </head>
 
 <body>
 
-  <div class="navbar">
-    <div class="inner_wrap">
-      <div class="title_container">
-        <h1>Home</h1>
-      </div>
-      <nav>
-        <ul class="menu">
-          <li><a href="index.html"> Home</a></li>
+  <header>
+    <div class="container">
+      <h1 id="logo">
+        STARTPROjecten
+      </h1>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle">
+      <nav class="site-nav site-nav--open">
+        <ul>
+          <li><a href="index.html">Home</a></li>
           <li><a href="projecten.html"> Projecten</a></li>
           <li><a href="missie.html"> Missie & Visie</a></li>
           <li><a href="verhaal.html">Ons verhaal</a></li>
           <li><a href="contact.html"> Contact</a></li>
         </ul>
-        <div class="clearfix"></div>
       </nav>
+      <!-- toggle is hamburger in the corner -->
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
     </div>
-  </div>
+  </header>
+
   <div class="mainPageContent">
     <div id="inner-content">
 
@@ -71,7 +75,7 @@
               van
               STARTPROjecten:</b>
 
-            <li> <b style="font-weight:bold; font-size: 16px;">STARTPROjecten </b>
+            <li> <b class="nuwel">STARTPROjecten</b>
               neemt de coördinatie op zich van de acties op het vlak van informatica met INTEC BRUSSEL vzw
               en
               op het
@@ -79,18 +83,18 @@
               uit
               kansengroepen met de vzw InBrussel. </li>
 
-            <li> <b style="font-weight:bold; font-size: 16px">STARTPROjecten </b> verzekert
+            <li> <b class="nuwel">STARTPROjecten</b> verzekert
               de integratie en afstemming van de verschillende werkvormen (opleiding, sociale
               tewerkstelling,
               individuele trajectbegeleiding, groepsoriëntatie van jongeren naar stage en werk) binnen de
               verschillende deelwerkingen. </li>
 
 
-            <li> <b style="font-weight:bold; font-size: 16px">STARTPROjecten </b> werkt
+            <li> <b class="nuwel">STARTPROjecten</b> werkt
               samen met onderwijs-, opleidings- en tewerkstellingspartners. </li>
 
 
-            <li> <b style="font-weight:bold; font-size: 16px">STARTPROjecten </b> werkt
+            <li> <b class="nuwel">STARTPROjecten</b> werkt
               samen met andere initiatiefnemers in de sociale economie, en meer bepaald in de sectoren
               zorg,
               informatica, voeding/horeca, verkoop, bouw, vervoer en logistiek door middel van
