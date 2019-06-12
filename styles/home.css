@@ -1,6 +1,6 @@
 #home_links {
-  margin: 10px 0px 50px 30px;
-height: 300px;
+    margin: 10px 0px 50px 30px;
+    height: 300px;
 }
 
 .maincontent{
@@ -23,12 +23,12 @@ height: 300px;
     border: 0px solid #d5d5d5;
 }
 
-li{
+li {
     margin: 38px 0;
   } 
 
-  .maincontent {
+.maincontent {
       display: flex;
       flex-direction: row
-  }
+}
 
