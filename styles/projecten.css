@@ -34,10 +34,10 @@ h3{
 }
 .card a{
     text-decoration: none;
-    font-size: 14px;
 }
 
 /* Lees meer projecten */
+
 .mainProjectLinkDiv{
   max-width: 900px;
   position: relative;
@@ -76,11 +76,9 @@ h3{
 .samenMet li{
   margin: 15px 0px 0px 0px;
 }
-.samenMet li{
-  margin: 15px 0px 0px 0px;
-}
+
 .samenMet :last-child{
-  margin: 15px 0px 60px 0px;
+  margin: 0px 0px 60px 0px;
 }
 
 .ProjectenLinksNaar{
@@ -102,10 +100,11 @@ h3{
     /* display: flex; */
     flex-direction: column;
     height: 100%;
+ 
   }
 
   .mainProjectLinkDiv{
-    width: 90%;
+    width: 850px;
     margin-bottom: 0px;
   }
 
@@ -118,9 +117,16 @@ h3{
   }
 
   /* main projecten pagina */
+
   .card {
-    height: 250px;
-    width: 880px;
+    height: 350px;
+    width: 900px;
+  }
+  .cardText{
+    line-height: 25px;
+  }
+  h3 {
+  line-height: 24px;
   }
 }
 
