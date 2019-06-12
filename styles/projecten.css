@@ -52,7 +52,7 @@ h3{
 .mainLeesMeerDiv{
   display: flex;
   flex-direction: row;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 .projectTitles{
@@ -83,6 +83,7 @@ h3{
 
 .ProjectenLinksNaar{
   margin: 120px 0px 0px 20px;
+  width: 600px;
 }
 
 .ProjectenLinksNaar li{
@@ -97,7 +98,6 @@ h3{
 /* Lees meer paginas */
 
   .mainLeesMeerDiv{
-    /* display: flex; */
     flex-direction: column;
     height: 100%;
  
@@ -114,6 +114,7 @@ h3{
 
   .ProjectenLinksNaar{
     margin-top: 0px;
+    width: 700px;
   }
 
   /* main projecten pagina */
