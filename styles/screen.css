@@ -8,6 +8,7 @@
 .mainPageContent{
     display: flex;
     justify-content: flex-end;
+    min-height: 100%;
 }
 
 #inner-content{
@@ -240,13 +241,15 @@
         flex-direction: row;
     }
     .samenwerkingen{
-        margin: 10px 0px 20px 0px;
+        margin: 30px 0px 20px 0px;
         width: 100%;
+        line-height: 26px;
     }
 
     .vrijwilligers{
-        margin: 10px 30px 5px 0px;
+        margin: 50px 30px 120px 0px;
         width: 100%;
+        line-height: 26px;
     }
 
     .VactatureenSamenwerking{
@@ -271,8 +274,19 @@
     }
 
     /* Missie en Visie */
-    .MissieVisieDiv{
-        width: 85%;
+
+    .topul li {
+        line-height: 26px;
+        width: 850px;
+    }
+
+    .doelstellingenUl {
+        margin-top: 25px;
+    }
+
+    .doelstellingenUl li {
+        line-height: 26px;
+        width: 850px;
     }
 
     /* inner page */
@@ -281,4 +295,7 @@
         height: 100%;
     }
 
+    .nuwel {
+        font-size: 24px;
+    }
 }
