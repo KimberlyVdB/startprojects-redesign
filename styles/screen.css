@@ -90,7 +90,7 @@
 }
 
 .infoContainer{
-    margin: 0px 0px 0px 15px;
+    margin: 0px 0px 0px 15px;   
 }
 
 .infoContainer li{
@@ -99,7 +99,6 @@
 
 .infoContainer li :last-child{
     margin: 12px 0px;
-    line-height: 5px;
 }
 .infoContainer a{
     text-decoration: none;
@@ -163,6 +162,10 @@
 
 /* Missie en Visie */
 
+.topul li:first-child{
+    font-size: 18px;
+}
+
 .topul{
     margin: 15px 0px 10px 30px;
     width: 75%;
@@ -219,7 +222,7 @@
 
 .nuwel{
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 	font-weight:bold;
     font-style: none;
 	font-variant: normal;
@@ -236,6 +239,11 @@
         height:280px;
         width: 100%;
     }
+
+    .infoContainer { 
+        line-height: 25px;
+    }
+
     .contactInformation{
         display: flex;
         flex-direction: row;
@@ -245,7 +253,7 @@
         width: 100%;
         line-height: 26px;
     }
-
+ 
     .vrijwilligers{
         margin: 50px 30px 120px 0px;
         width: 100%;
@@ -270,7 +278,11 @@
 
     .onsVerhaalImage{
         margin: 0px 0px 10px 40px;
-        
+    }
+
+    .startprojectenText{
+        color: #FF7F27;
+        font-size: 1em;
     }
 
     /* Missie en Visie */
@@ -278,6 +290,10 @@
     .topul li {
         line-height: 26px;
         width: 850px;
+    }
+    .topul li:first-child{
+        text-align: center;
+        font-size: 1.5em;
     }
 
     .doelstellingenUl {
@@ -288,6 +304,10 @@
         line-height: 26px;
         width: 850px;
     }
+    .missiePointsText{
+        font-size: 1em;
+    }
+    
 
     /* inner page */
     #inner-content{
@@ -296,6 +316,6 @@
     }
 
     .nuwel {
-        font-size: 24px;
+        font-size: 1.1em;
     }
 }
