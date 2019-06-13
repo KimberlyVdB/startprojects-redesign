@@ -74,6 +74,19 @@
     background:black;
 }
 
+.madeBy  {
+    color: #FF7F27;
+    height: 30px;
+    text-align: flex-start;
+    width: 100%;
+    padding-top:5px;
+    margin-left: 50px; 
+}
+
+.madeBy a {
+    font-weight: 100;  
+}
+
 /* Responsive */
 @media only screen and (max-width: 1200px){
     #footer_links_content{
@@ -92,16 +105,19 @@
     #footer_voor_midden_content{
         width: 50%;
         height: 220px;
+        border-width: 0px 2px 0px 0px;
     }
     
     #footer_midden_content{
         width: 50%;
         height: 220px;
+        
     }
     
     #footer_naast_midden_content {
         width: 50%;
         height: 220px;
+        border-width: 0px 2px 0px 0px;
     }
 
     #footer_rechts_content{
@@ -113,7 +129,13 @@
     #footer li {
         font-size: 20px;
     }
-
+    .madeBy  {
+        margin-left: 22px;
+        border-top: solid;
+        border-width: 2px;
+        border-color: #FF7F27;
+        border: 100%;
+    }
 }
   
 /*navigation bar begint hier*/
