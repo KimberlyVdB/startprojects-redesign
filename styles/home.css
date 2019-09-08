@@ -1,34 +1,34 @@
 #home_links {
-    margin: 10px 0px 50px 30px;
-    height: 300px;
+  margin: 10px 0px 50px 30px;
+  height: 300px;
 }
 
 .maincontent{
-    margin-top: 20px;
-    padding-bottom: 85px;
+  margin-top: 20px;
+  padding-bottom: 85px;
 }
 
 .main_head_content{
-    display:flex;
-    flex-direction: row;
+  display:flex;
+  flex-direction: row;
 }
 
 #home_rechts {
-    background:c4c4c4;
-    margin:10px 10px 10px 10px;
-    width: 60%;
-    height:100%;
-    flex-direction: row;
-    padding: 10px;    
-    border: 0px solid #d5d5d5;
+  background:c4c4c4;
+  margin:10px 10px 10px 10px;
+  width: 60%;
+  height:100%;
+  flex-direction: row;
+  padding: 10px;
+  border: 0px solid #d5d5d5;
 }
 
 li {
-    margin: 38px 0;
-  } 
+  margin: 38px 0;
+}
 
 .maincontent {
-      display: flex;
-      flex-direction: row
+    display: flex;
+    flex-direction: row
 }
 
